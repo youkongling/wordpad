@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=yes">
+        <title>小波写字板</title>
+        <script src="./jquery-2.1.3.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="./wordpad.css" media="screen" title="no title">
+    </head>
+    <body>
+        <canvas id="canvas" width="300" height="300">
+            您的浏览器不支持canvas，请升级浏览器使用！
+        </canvas>
+        <div id="controller">
+            <div id="black_btn" class="color_btn color_btn_selected"></div>
+            <div id="blue_btn" class="color_btn"></div>
+            <div id="green_btn" class="color_btn"></div>
+            <div id="red_btn" class="color_btn"></div>
+            <div id="orange_btn" class="color_btn"></div>
+            <div id="yellow_btn" class="color_btn"></div>
+
+            <div id="clear_btn" class="opreation_btn">清除</div>
+            <div class="clearfix"></div>
+        </div>
+        <script src="./wordpad.js" charset="utf-8"></script>
+    </body>
+</html>
